@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@drawable/fondo_popoinapp"
+    tools:context=".activities.CategoriesAdminActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_weight="1"
+       android:gravity="bottom"
+       android:background="@drawable/header_admin"
+       android:padding="12dp">
+
+      <ImageView
+          android:layout_width="311dp"
+          android:layout_height="209dp"
+          android:src="@drawable/logo1"
+          android:layout_gravity="center"/>
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:text="Bienvenido administrador"
+         android:textColor="@color/white_1000"
+         android:textSize="25sp"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:layout_weight="6"
+      android:orientation="vertical"
+      android:weightSum="2"
+       android:paddingTop="20dp"
+       android:paddingRight="16dp"
+       android:paddingLeft="16dp"
+
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:weightSum="2"
+          >
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="300dp"
+             android:layout_weight="1"
+             app:cardElevation="2dp"
+             app:cardCornerRadius="8dp"
+             android:backgroundTint="#8247CF"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+               <ImageButton
+                   android:id="@+id/listUserButton"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"
+                   android:src="@drawable/listadecontactos"
+                   android:adjustViewBounds="true"
+                   android:scaleType="fitCenter"
+                   android:background="#8247CF"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/list_users_popinapp"
+                   android:textAlignment="center"
+                   android:textColor="@color/white_1000"/>
+
+
+
+            </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="300dp"
+             android:layout_weight="1"
+             app:cardElevation="2dp"
+             app:cardCornerRadius="8dp"
+             android:backgroundTint="#227DD5"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+               <ImageButton
+                   android:id="@+id/analiticsPopinappButton"
+                   android:layout_width="150dp"
+                   android:layout_height="200dp"
+                   android:src="@drawable/analisis"
+                   android:adjustViewBounds="true"
+                   android:scaleType="fitCenter"
+                   android:background="#227DD5"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Analitica de los restaurantes"
+                   android:textAlignment="center"
+                   android:textColor="@color/white_1000"/>
+
+
+
+            </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+
+      </LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>

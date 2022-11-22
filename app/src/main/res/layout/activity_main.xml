@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_popoinapp"
+    tools:context=".activities.MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:weightSum="2"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#8247CF"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/button_topleft"
+                        android:layout_width="205dp"
+                        android:layout_height="185dp"
+                        android:src="@drawable/captura"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#8247CF"/>
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#227DD5"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/parrilladas"
+                        android:layout_width="205dp"
+                        android:layout_height="183dp"
+                        android:src="@drawable/parilla"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#227DD5"/>
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#227DD5"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/button_seaFood"
+                        android:layout_width="205dp"
+                        android:layout_height="183dp"
+                        android:src="@drawable/mariscos"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#227DD5"/>
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#8247CF"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/bakery"
+                        android:layout_width="205dp"
+                        android:layout_height="183dp"
+                        android:src="@drawable/panaderia"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#8247CF"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#8247CF"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/cakeshop"
+                        android:layout_width="205dp"
+                        android:layout_height="183dp"
+                        android:src="@drawable/pasteleria"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#8247CF"/>
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#227DD5"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/button_vegetarian"
+                        android:layout_width="190dp"
+                        android:layout_height="183dp"
+                        android:src="@drawable/vegetariana"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#227DD5"/>
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#227DD5"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/button_store"
+                        android:layout_width="205dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/tienda"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#227DD5"/>
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="205dp"
+                android:layout_height="183dp"
+                android:layout_weight="1"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                android:backgroundTint="#8247CF"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/colombianFood"
+                        android:layout_width="190dp"
+                        android:layout_height="183dp"
+                        android:src="@drawable/colombiana"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="#8247CF"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "539534656553",
+    "firebase_url": "https://popinapp-3edbd-default-rtdb.firebaseio.com",
+    "project_id": "popinapp-3edbd",
+    "storage_bucket": "popinapp-3edbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539534656553:android:73681258739cf165eb0838",
+        "android_client_info": {
+          "package_name": "edu.puj.popinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539534656553-7hed97amc1e6oqqavvjnvvbjjb8kbnqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMzJsYjGAXNixOzlpKYTRNLC8C5gPv00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539534656553-7hed97amc1e6oqqavvjnvvbjjb8kbnqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539534656553:android:835efc4dd18b00aeeb0838",
+        "android_client_info": {
+          "package_name": "edu.puj.popinapp_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539534656553-7hed97amc1e6oqqavvjnvvbjjb8kbnqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMzJsYjGAXNixOzlpKYTRNLC8C5gPv00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539534656553-7hed97amc1e6oqqavvjnvvbjjb8kbnqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539534656553:android:1441e6d011df8cd2eb0838",
+        "android_client_info": {
+          "package_name": "edu.puj.prueba_popinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539534656553-7hed97amc1e6oqqavvjnvvbjjb8kbnqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMzJsYjGAXNixOzlpKYTRNLC8C5gPv00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539534656553-7hed97amc1e6oqqavvjnvvbjjb8kbnqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

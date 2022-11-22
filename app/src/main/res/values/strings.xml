@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Project-Popinapp</string>
+    <string name="create_a_new_profile">Registro Popinapp</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Contraseña</string>
+    <string name="name_label">Nombre</string>
+    <string name="lastname_label">Apellido</string>
+    <string name="phone_label">Telefono</string>
+    <string name="direction_label">Direccion</string>
+    <string name="gender_male">hombre</string>
+    <string name="gender_female">mujer</string>
+    <string name="gender_other">otro</string>
+    <string name="desition_owner">Dueño</string>
+    <string name="desition_client">Cliente</string>
+    <string name="bith_day_label">Fecha de nacimiento</string>
+    <string name="create_account_label">Crear una cuenta</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="forget_password">Olvidaste la contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="snackBar_dismiss_label">cerrar</string>
+    <string name="lastname">Apellido</string>
+    <string name="cellPhone">Telefono</string>
+    <string name="restaurantOwner">Dueño de restaurante</string>
+    <string name="birth">Fecha de nacimiento</string>
+
+    <string name="mail_error_label">El email no puede estar vacio.</string>
+    <string name="error_pass_label">El password no puede estar vacio.</string>
+    <string name="error_name_label">Debe digitar su nombre.</string>
+    <string name="error_lastName_label">Debe digitar su apellido.</string>
+    <string name="error_direction_label">Debe digitar la direccion de residencia o de su tienda.</string>
+    <string name="register">registrarte</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="list_users_popinapp">Listado de usuarios registrados en la plataforma</string>
+    <string name="analitics_popinapp">Analitica de los restaurantes </string>
+
+</resources>

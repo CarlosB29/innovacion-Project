@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo_popoinapp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingHorizontal="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/mainLabel"
+                style="@style/TextAppearance.MaterialComponents.Headline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_a_new_profile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createEmail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/email_label"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black_1000"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mainLabel"
+                app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/grey_800"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createPass"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/password_label"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black_1000"
+                app:endIconMode="password_toggle"
+                app:layout_constraintTop_toBottomOf="@+id/createEmail"
+                app:startIconDrawable="@drawable/ic_baseline_password_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/grey_800"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createDisplayName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/name_label"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black_1000"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/createPass"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:textColorHint="@color/grey_800"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createDisplaylastName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/lastname_label"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black_1000"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/createDisplayName"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:textColorHint="@color/grey_800"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createDisplayDirection"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/direction_label"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black_1000"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/createDisplaylastName"
+                app:startIconDrawable="@drawable/ic_baseline_directions_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:textColorHint="@color/grey_800"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/createDisplayBirthDay"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="false"
+                android:hint="@string/bith_day_label"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black_1000"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/createDisplayDirection" />
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/tvGender"
+                android:layout_width="328dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/createDisplayBirthDay"
+                app:singleSelection="true"
+                tools:ignore="MissingConstraints">
+
+                <Button
+                    android:id="@+id/btnMale"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="110dp"
+                    android:textColorHint="@color/black_1000"
+                    android:layout_height="match_parent"
+                    android:text="@string/gender_male" />
+
+                <Button
+                    android:id="@+id/btnFemale"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="110dp"
+                    android:textColorHint="@color/black_1000"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender_female" />
+
+                <Button
+                    android:id="@+id/btnOther"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="110dp"
+
+                    android:textColorHint="@color/black_1000"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender_other" />
+
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createPhone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/phone_label"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black_1000"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/tvGender"
+                app:startIconDrawable="@drawable/ic_baseline_phone_android_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:textColorHint="@color/grey_800"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/tvDesition"
+                android:layout_width="328dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/createPhone"
+                app:singleSelection="true"
+                tools:ignore="MissingConstraints">
+
+                <Button
+                    android:id="@+id/btnclient"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="162dp"
+                    android:backgroundTint="#FAB55E"
+                    android:layout_height="match_parent"
+                    android:text="@string/desition_client" />
+
+                <Button
+                    android:id="@+id/btnowner"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:backgroundTint="#D6587E"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desition_owner" />
+
+
+
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+
+            <Button
+                android:id="@+id/createButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#8247CF"
+                android:text="@string/create_account_label"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDesition" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
